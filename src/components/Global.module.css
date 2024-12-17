@@ -1,0 +1,42 @@
+.booked{
+    background-color: rgb(255, 134, 134) !important;
+   }
+   
+   .selected{
+    background-color: rgb(150, 255, 134) !important;
+    
+   }
+   
+   .available{
+       background-color: rgb(87, 196, 255) !important;
+
+   }
+   
+   .uppercase{
+      display:flex;
+      flex-wrap: wrap;
+      row-gap: 30px; 
+      justify-content: center;
+   }
+   
+   .lowercase{
+       display:flex;
+       flex-wrap: wrap;
+       row-gap: 30px; 
+       justify-content: center;
+   }
+   
+   .item{
+       height: 105px;
+   }
+   
+   .title{
+       text-align: center;
+       font-size: 3rem !important;
+       color: darkmagenta;
+       font-family:'Agdasima', sans-serif !important;
+   }
+   
+   .image{
+      height: 90px;
+   }
